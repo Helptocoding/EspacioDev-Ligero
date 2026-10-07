@@ -1,0 +1,30 @@
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# PowerShell / logs
+*.log
+markdown-viewer.log
+
+# Python (el repo detecta estos, no los versionamos si aparecen localmente)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node / builds (idem: detectados, no versionar si se generan aquí)
+node_modules/
+dist/
+build/
+.next/
+.coverage/
+coverage/
+
+# Editores
+.vscode/
+.vs/
+.idea/
+*.swp
